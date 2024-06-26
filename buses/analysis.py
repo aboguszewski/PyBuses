@@ -211,7 +211,7 @@ def over50Map(data: pandas.DataFrame):
     
     fig.update_layout(
         mapbox_style = 'carto-positron',
-        mapbox_center = {'lat': 52.2297, 'lon': 21.0122},  # Centered around Warsaw
+        mapbox_center = {'lat': 52.2297, 'lon': 21.0122},
         mapbox_zoom = 10
     )
 
